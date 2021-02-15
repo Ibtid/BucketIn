@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+.button {
+  margin-top: 0.5rem;
+  font-family: 'Averia Serif Libre', cursive;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.default {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  color: #3b3b3b;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  border-color: #f7f7f7;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.default:hover {
+  background-color: #3b3b3b;
+  color: #f7f7f7;
+}
+
+.danger {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcc57;
+  color: #3b3b3b;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  border-color: #f7f7f7;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.danger:hover {
+  background-color: #3b3b3b;
+  color: #ffcc57;
+}

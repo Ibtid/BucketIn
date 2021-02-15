@@ -1,0 +1,17 @@
+.homepageBanner {
+  z-index: -1;
+  margin-bottom: -40.5vh;
+  max-height: 90vh;
+}
+.homepageBanner__image {
+  max-height: 90vh;
+  width: 100%;
+  z-index: -1;
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0)
+  );
+  margin-bottom: 0vh;
+}

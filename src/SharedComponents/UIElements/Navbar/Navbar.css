@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+.navbar {
+  background-color: #3b3b3b;
+  height: 10vh;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  padding-left: 4rem;
+  flex: 0.7;
+}
+
+.navbar__elementGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__element {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0rem 2rem;
+  color: #f7f7f7;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar__element:hover {
+  color: #ffcc57;
+}
+
+.navbar__element p {
+  padding-left: 0.7rem;
+}
+
+.navbar__elementText {
+  padding-left: 0.3rem;
+}
+
+.greet__text {
+  font-size: 0.5rem;
+}
+
+.order__nav {
+  opacity: 1;
+  background-color: #ffcc57;
+  color: #3b3b3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.order__nav:hover {
+  background-color: #f7f7f7;
+}
+
+.order__navbar {
+  padding-left: 5rem;
+}
+
+.navbar__input {
+  margin: 0px;
+  border-radius: 0px;
+  height: 1.5rem;
+  flex: 1;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.navbar__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-right: 7rem;
+}
+
+.navbar__searchicon {
+  height: 100%;
+  background-color: #ffcc57;
+  color: #3b3b3b;
+  transition: 1s ease-in-out;
+  border-radius: 0px 5px 5px 0px;
+}
+.navbar__searchicon:hover {
+  background-color: #3b3b3b;
+  color: #ffcc57;
+}
+.navbar__searchIconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffcc57;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}

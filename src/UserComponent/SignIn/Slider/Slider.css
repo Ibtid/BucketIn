@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  background-color: #ffcc57;
+  width: 100%;
+  position: absolute;
+  right: -100%;
+  border-radius: 0.5rem;
+  z-index: 1;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+}
+
+.right {
+  right: -50%;
+  align-items: flex-end;
+}
+.right:hover {
+  right: -55%;
+}
+
+.left {
+  right: 50%;
+  align-items: flex-start;
+}
+.left:hover {
+  right: 55%;
+}
+
+.text {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 21px;
+  font-weight: 500;
+  color: #3b3b3b;
+  margin-right: 2em;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  font-size: 1rem;
+}
+
+.logo__icon {
+  width: 4rem;
+  height: 3rem;
+}
+
+.logo__iconContainer {
+  width: 4rem;
+  height: 3rem;
+}

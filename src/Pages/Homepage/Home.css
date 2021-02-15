@@ -1,0 +1,12 @@
+.home {
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+}
+
+.home__container {
+  width: 90%;
+  background-color: #cfcfcf;
+  min-height: 90vh;
+}
